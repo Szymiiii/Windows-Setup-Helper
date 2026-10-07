@@ -1,33 +1,34 @@
 # Windows_SetupHelper
-Projekt do automatyzacji procesu po instalacji Windowsa wykonany przy pomocy AI do generowania GUI
 
-## 🛠️ Funkcjonalności
+A tool designed to streamline and accelerate personal Windows 11 configuration after a fresh installation, featuring an AI-assisted GUI generation.
 
-Narzędzie pozwala wyklikać i automatycznie wdrożyć poniższe modyfikacje:
+## 🛠️ Features
 
-* **Personalizacja i Wygląd:**
-  * Włączenie ciemnego motywu (Dark Mode).
-  * Ustawienie jednolitego czarnego tło pulpitu (*Solid Color*).
-  * Przesunięcie menu Start i ikon na lewą stronę (Windows 11).
-  * Ukrycie niepotrzebnych ikon (Widgets, Task View, Chat/Copilot) oraz automatyczne ukrywanie paska zadań.
+This tool allows you to select and automatically deploy the following system modifications:
 
-* **Eksplorator Plików i Wygoda:**
-  * Włączenie widoczności rozszerzeń plików oraz ukrytych plików/folderów.
-  * Wyłączenie uciążliwych Klawiszy Trwałych (*Sticky Keys*).
-  * Przywrócenie klasycznego menu kontekstowego pod prawym przyciskiem myszy (Windows 11).
-  * Wyłączenie podpowiedzi Bing w menu Start.
-  * Otwieranie Eksploratora bezpośrednio na sekcji *Ten komputer*.
-  * Dodanie opcji *Zakończ zadanie* w prawokliku na pasku zadań.
-  * Utworzenie skrótu *God Mode* na pulpicie.
+* **Personalization & Appearance:**
+  * Enable Dark Mode.
+  * Set a solid black desktop background (*Solid Color*).
+  * Align the Start Menu and taskbar icons to the left (Windows 11).
+  * Hide unnecessary UI elements (Widgets, Task View, Chat/Copilot) and enable automatic taskbar hiding.
 
-* **Wydajność i Optymalizacja pod Gry:**
-  * Automatyczne tworzenie punktu przywracania systemu przed wprowadzeniem zmian.
-  * Aktywacja planu zasilania *Wysoka Wydajność*.
-  * Wyłączenie hibernacji (odzyskanie miejsca na partycji `C:`).
-  * Wyłączenie akceleracji myszy (wymuszenie precyzji $1:1$).
-  * Włączenie Trybu Gry (*Windows Game Mode*) oraz wyłączenie nagrywania w tle (*Game DVR*).
+* **File Explorer & Usability:**
+  * Show known file extensions and hidden files/folders.
+  * Disable *Sticky Keys*.
+  * Restore the classic context menu on right-click (Windows 11).
+  * Disable Bing search recommendations in the Start Menu.
+  * Open File Explorer directly to *This PC*.
+  * Add the *End Task* option to the taskbar right-click menu.
+  * Create a *God Mode* shortcut on the desktop.
 
-* **Automatyczna Instalacja Aplikacji (za pomocą Winget):**
+* **Performance & Gaming Optimization:**
+  * Automatically create a system restore point before applying changes.
+  * Activate the *High Performance* power plan.
+  * Disable hibernation (reclaiming disk space on drive `C:`).
+  * Disable mouse acceleration (enforcing raw $1:1$ input precision).
+  * Enable *Windows Game Mode* and disable background recording (*Game DVR*).
+
+* **Automated Software Installation (via Winget):**
   * 7-Zip
   * HWiNFO64
   * Steam
